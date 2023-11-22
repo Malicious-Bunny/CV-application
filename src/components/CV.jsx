@@ -37,7 +37,9 @@ export default function CV({experience, education, details, bio, skills, setview
             fill: "red"
         }}/>
         
-        <div onClick={download} className="circleIcon invis1">
+        <div onClick={download} className="circleIcon invis1" style={{
+            transform: 'scale(0.7)'
+        }}>
         <FaFileDownload />
         </div>
      </div>

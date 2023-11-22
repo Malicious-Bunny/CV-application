@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       //externalize react tag input component
-      external: ['reactjs-tag-input', 'reactjs-tag-input/dist/styles.css'],
+      external: ['reactjs-tag-input/dist/styles.css'],
     },
   },
 })
