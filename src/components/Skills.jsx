@@ -1,6 +1,6 @@
 /*eslint-disable react/prop-types */
 
-import { TagInput } from 'reactjs-tag-input'
+import { TagInput } from 'react-tag-input'
 import '../styles/components.css'
 
 export default function Skills({skills, setSkills, setPanel}){
